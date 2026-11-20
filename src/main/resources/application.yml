@@ -1,0 +1,10 @@
+server:
+  port: 7072
+
+spring:
+  application:
+    name: Admin-MS
+  config:
+    import: configserver:http://localhost:1111
+images:
+  upload-dir: D:\classes\product-images\
